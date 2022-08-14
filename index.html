@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/WOW-master/css/libs/animate.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
@@ -29,9 +29,9 @@
                 <img src="./Data/LOGO-removebg-preview.png" class="LOGO">
 
                 <ul>
-                    <li><a href="#">WHAT WE DO</a></li>
-                    <li><a href="#">WHO WE ARE</a></li>
-                    <li><a href="#">GET IN TOUCH</a></li>
+                    <li><a href="#one">WHAT WE DO</a></li>
+                    <li><a href="#team">WHO WE ARE</a></li>
+                    <li><a href="#login">GET IN TOUCH</a></li>
                 </ul>
             </div>
         </nav>
@@ -39,7 +39,7 @@
 
         <div class="container">
             <center>
-                <h1>FrameCoders</h1>
+                <h1 class="wow animate__bounceIn">FrameCoders</h1>
             </center>
             <center>
                 <p>WE DREAM IN CODE & CODE THE DREAMS</p>
@@ -81,7 +81,7 @@
                         <p data-wow-duration="1s" class="wow animate__fadeInLeft">Web development</p>
                         <p data-wow-duration="1.5s" class="wow animate__fadeInLeft">Software engineering</p>
                         <p data-wow-duration="2s" class="wow animate__fadeInLeft">Team management</p>
-                        <p class="other">& others</p>
+                        <p data-wow-duration="2s" class="other wow animate__fadeInLeft">& others</p>
                     </div>
                 </div>
             </div>
@@ -175,7 +175,7 @@
 
             <div class="row">
                 <div class="col-md-6">
-                    <div class="purpletwo">
+                    <div class="purpletwo wow animate__fadeInDown">
                         <h4>Leave a message, we'll reply shortly</h4>
                         <hr>
                         <p>We craft software 100% remotely and get the job done.
@@ -195,10 +195,10 @@
                         <span>Open positions:</span>
                         <br>
                         <br>
-                        <p>Senior React Developer</p>
-                        <p>Senior PHP Developer</p>
-                        <p>Senior Vue Developer</p>
-                        <p>Senior Python Developer</p>
+                        <p class="wow animate__zoomIn" data-wow-duration=".5s">Senior React Developer</p>
+                        <p class="wow animate__zoomIn" data-wow-duration="1s">Senior PHP Developer</p>
+                        <p class="wow animate__zoomIn" data-wow-duration="1.5s">Senior Vue Developer</p>
+                        <p class="wow animate__zoomIn" data-wow-duration="2s">Senior Python Developer</p>
                     </div>
                 </div>
             </div>
@@ -228,7 +228,8 @@
         </div>
 
 
-        <p class="copywrite">Created By <a href="#">Omar Bashir</a></p>
+        <p class="copywrite">Created By <a href="https://www.instagram.com/strangeromar/" target="_blank">Omar
+                Bashir</a></p>
 
         <br>
     </footer>
@@ -237,9 +238,9 @@
 
 
     <script src="./CSS/WOW-master/dist/wow.min.js"></script>
-              <script>
-              new WOW().init();
-              </script>
+    <script>
+        new WOW().init();
+    </script>
 
 
 </body>
